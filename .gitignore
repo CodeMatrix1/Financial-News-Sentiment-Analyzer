@@ -1,0 +1,23 @@
+# Virtual environment
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Model artifacts
+models/
+*.pth
+*.pt
+*.pkl
+*.joblib
+
+# Evaluation outputs
+bulk_test/
+bulk_evaluate.py
+
+# Python cache
+utils/__pycache__/
+*.pyc
+
+eda_scikit_learn_improved.ipynb
